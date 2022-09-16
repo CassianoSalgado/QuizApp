@@ -47,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		485A095728D50C67006CDF7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				487B53CD28CF8CE500799E2D /* Model.swift */,
+				570038BE28CD0AE7007383F9 /* Perguntas.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		5700389828CD0167007383F9 = {
 			isa = PBXGroup;
 			children = (
@@ -66,8 +75,9 @@
 		570038A328CD0167007383F9 /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
-				57EC208628CFDCA2004016FF /* Controller */,
+				485A095728D50C67006CDF7D /* Model */,
 				57EC208728CFDCC0004016FF /* View */,
+				57EC208628CFDCA2004016FF /* Controller */,
 				570038B228CD0169007383F9 /* Info.plist */,
 			);
 			path = Quiz;
@@ -80,8 +90,6 @@
 				570038B828CD035B007383F9 /* PerguntasTableViewController.swift */,
 				570038BA28CD050D007383F9 /* JogoViewController.swift */,
 				570038A828CD0167007383F9 /* ViewController.swift */,
-				487B53CD28CF8CE500799E2D /* Model.swift */,
-				570038BE28CD0AE7007383F9 /* Perguntas.swift */,
 				570038A628CD0167007383F9 /* SceneDelegate.swift */,
 				570038A428CD0167007383F9 /* AppDelegate.swift */,
 			);
@@ -328,8 +336,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -355,8 +362,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
